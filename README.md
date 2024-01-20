@@ -30,12 +30,15 @@ The weather event dataset includes 1,630,114 unique entries of weather significa
   - Episode and Event narrative descriptions of the event
 
 **Exploratory Questions**
+
 Weather event frequency over time:
 - How many extreme weather events occur in a year?
 - Are extreme weather events occuring more frequently?
 - What does the frequency of weather events look like in each state over time?
 - What is the most frequent event type by year?
+- 
 Cost of Weather Events:
+
 - When looking at cost to property or crops, which weather events are most costly?
 - Which states have the highest weather related cost burden?
 
