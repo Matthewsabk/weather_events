@@ -1,11 +1,19 @@
 # weather_events
 Analysis of historic weather events from NOAA since 1996
 
-Initial repo with states_shape.zip, 50 states shapefile neccessary for geopandas mapping, storm_events.zip, csv file of the historic weather events from NOAA since 1996, and analysis of those events in StormEventsAnalysis.ipynb.
-Jupiter Notebook, py 3.10.12, numpy, pandas,matplotlib, geopandas, and statsmodels.api
+Initial repo with states_shape.zip, 50 states shapefile neccessary for geopandas mapping, and analysis of the events in StormEventsAnalysis.ipynb.
+Due to the size of the dataset, I was unable to include a zip of the csv. The data can be found at https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/, downloaded and concatonated as needed. 
+
+**Utilizes**
+Jupiter Notebook, py 3.10.12
+  - numpy
+  - pandas
+  - matplotlib
+  - geopandas
+  - statsmodels.api
 
 **Overview**
-In this analysis, I investigated historical storm data from the National Centers for Environmental Information from NOAA. The Storm Events Database covers the time period between January 1950 to September 2023, at this time. The database was created to document significant weather phenomena with damage to people, property or commerce, unusual weather events, and significant meteorlogical events. The csv of the Storm Events Database can be found at https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/. For the purposes of this analysis, I have chosen to focus on the Storm Events Details published December 17, 2023 (StormEvents_details-ftp_v1.0_d2023_c20231217.csv.gz)
+In this analysis, I investigated historical storm data from the National Centers for Environmental Information from NOAA. The Storm Events Database covers the time period between January 1950 to September 2023, at this time. The database was created to document significant weather phenomena with damage to people, property or commerce, unusual weather events, and significant meteorlogical events. The csv of the Storm Events Database can be found at https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/. For the purposes of this analysis, I have chosen to focus on the Storm Events *Details* published before December 17, 2023 (https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/)
 
 The event types collected have changed over time. During the period from 1950 to 1955, data was collected on tornados. From 1955 to January 1996, event data was collected for Tornado, Thunderstorm, Wind, and Hail events. From January 1996 to September 2023, event data was collected on 48 event types as detailed by the National Weather Service in instruction 10-1605 (https://www.nws.noaa.gov/directives/sym/pd01016005curr.pdf)
 
